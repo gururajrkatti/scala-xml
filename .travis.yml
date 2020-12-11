@@ -4,6 +4,10 @@ import: scala/scala-dev:travis/default.yml
 
 language: scala
 
+arch:
+  - amd64
+  - ppc64le
+
 scala:
   - 3.0.0-M2
   - 2.12.12
